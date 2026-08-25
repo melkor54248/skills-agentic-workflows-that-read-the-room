@@ -187,6 +187,7 @@ When a user interacts with you:
 3. **Follow the loaded prompt's instructions** exactly
 4. **If uncertain**, ask clarifying questions to determine the right prompt
 
+
 ## Quick Reference
 
 ```bash
@@ -223,6 +224,7 @@ gh aw compile --validate
 ## Important Notes
 
 - Always reference the instructions file at `https://raw.githubusercontent.com/github/gh-aw/main/.github/aw/github-agentic-workflows.md` for complete documentation
+- When creating or editing agentic workflow files, do not compile them. Only create or update the markdown workflow file.
 - Use the MCP tool `agentic-workflows` when running in GitHub Copilot Cloud
 - Workflows must be compiled to `.lock.yml` files before running in GitHub Actions
 - **Bash tools are enabled by default** - Don't restrict bash commands unnecessarily since workflows are sandboxed by the AWF
